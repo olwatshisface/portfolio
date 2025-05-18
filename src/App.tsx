@@ -11,7 +11,13 @@ const App = () => {
   return (
     <div className="App">
       <Card title={"test Card"}>
-        <Input name="test" label="Test Input" control={control} />
+        <Input name="textTest" label="Test Text Input" control={control} />
+        <Input
+          name="numberTest"
+          label="Test Number Input"
+          control={control}
+          type="number"
+        />
       </Card>
     </div>
   );
