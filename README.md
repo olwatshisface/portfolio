@@ -1,4 +1,4 @@
-This is a (somewhat) curated repo of perosonal projects and random ideas I had.
+This is a (somewhat) curated repo of perosonal projects and random ideas I've had.
 ---
 
 ## To-Do list / Ideas:
