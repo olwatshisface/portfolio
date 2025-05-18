@@ -1,0 +1,78 @@
+.card {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px 1px rgba(18, 22, 73, 0.15);
+  border-radius: 4px;
+  margin-bottom: 20px;
+
+  &.full {
+    width: -webkit-fill-available;
+    width: -moz-available;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    border-bottom: 1px solid #dadcdf;
+    padding: 16px 28px;
+    font-size: 19px;
+
+    h1,
+    h2,
+    h3 {
+      margin: 0 10px 0 0;
+      color: #1c1f27;
+    }
+
+    h2 {
+      font-size: 19px;
+    }
+
+    :global .p-button.p-button-text {
+      box-shadow: none;
+    }
+
+    :global .p-multiselect {
+      border: none;
+
+      &:hover {
+        background-color: #e8f2f6;
+      }
+    }
+
+    :global .p-multiselect .p-multiselect-label {
+      color: #187ba5;
+      font-weight: 600;
+      padding: 8px 0 8px 16px;
+    }
+
+    :global .p-multiselect .p-multiselect-trigger {
+      color: #187ba5;
+      font-weight: 600;
+      padding-right: 0;
+      width: 32px;
+    }
+  }
+
+  .body {
+    padding: 16px 28px 28px 28px;
+    overflow: auto;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .card {
+    width: 550px;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto 20px auto;
+  }
+}

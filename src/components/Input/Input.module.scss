@@ -1,0 +1,51 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0 0 0;
+
+  label {
+    margin: 0 0 4px 0;
+    color: #1c1f27;
+    display: flex;
+    font-size: 14px;
+    justify-content: flex-start;
+
+    .labelText {
+      font-weight: var(--semibold-weight);
+      margin-right: 2px;
+    }
+  }
+
+  &.disabled {
+    .labelText {
+      color: #6b7181;
+    }
+  }
+
+  .readOnly,
+  [readOnly] {
+    border: none;
+    padding-left: 0;
+    padding-top: 0;
+    color: #6b7181;
+
+    &:focus {
+      box-shadow: none !important;
+      border: none !important;
+    }
+  }
+
+  :global label.p-error {
+    color: #962b26;
+  }
+
+  .errorContainer {
+    margin: 4px 0 4px 0;
+    display: flex;
+    align-content: center;
+  }
+
+  .helpText {
+    margin: 0 0 12px 0;
+  }
+}
