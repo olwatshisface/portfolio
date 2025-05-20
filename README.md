@@ -7,4 +7,5 @@ This is a (somewhat) curated repo of personal projects and random ideas I've had
 - #Gamer RGB cycle
 - Forms?
 - Workout Tracker/ visualization
-- Game Tracker
+- Game Tracker/ steam integration
+- some kind of spotify integration
